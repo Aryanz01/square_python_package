@@ -1,0 +1,28 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Ignore virtual environment files
+/site
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore specific Python files
+check.py
+
+# Ignore specific file types and folders
+*.pdf
+deletes/
+sorted/
+splits/
+merged/
+dist/
+build/
+Lib/
+Scripts/
+102203551_square.egg-info/
+
+
+# Python environment configuration
+pyvenv.cfg
+
+# MacOS system file
+.DS_Store
